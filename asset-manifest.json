@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/DemoCourseSale/static/css/main.be7b6d5d.chunk.css",
+    "main.js": "/DemoCourseSale/static/js/main.27e1a139.chunk.js",
+    "main.js.map": "/DemoCourseSale/static/js/main.27e1a139.chunk.js.map",
+    "runtime-main.js": "/DemoCourseSale/static/js/runtime-main.b88fbfa7.js",
+    "runtime-main.js.map": "/DemoCourseSale/static/js/runtime-main.b88fbfa7.js.map",
+    "static/js/2.fc68f1dc.chunk.js": "/DemoCourseSale/static/js/2.fc68f1dc.chunk.js",
+    "static/js/2.fc68f1dc.chunk.js.map": "/DemoCourseSale/static/js/2.fc68f1dc.chunk.js.map",
+    "static/js/3.83f91f08.chunk.js": "/DemoCourseSale/static/js/3.83f91f08.chunk.js",
+    "static/js/3.83f91f08.chunk.js.map": "/DemoCourseSale/static/js/3.83f91f08.chunk.js.map",
+    "index.html": "/DemoCourseSale/index.html",
+    "static/css/main.be7b6d5d.chunk.css.map": "/DemoCourseSale/static/css/main.be7b6d5d.chunk.css.map",
+    "static/js/2.fc68f1dc.chunk.js.LICENSE.txt": "/DemoCourseSale/static/js/2.fc68f1dc.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/DemoCourseSale/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b88fbfa7.js",
+    "static/js/2.fc68f1dc.chunk.js",
+    "static/css/main.be7b6d5d.chunk.css",
+    "static/js/main.27e1a139.chunk.js"
+  ]
+}
