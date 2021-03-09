@@ -1,25 +1,34 @@
+import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Coursesale from './Coursesale';
+import { render } from '@testing-library/react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component{
+  render(){
+
+    var courses = [
+      {name: 'Complete iOS10 dev course ', price: 199},
+      {name: 'Complete penetrating course ', price: 299},
+      {name: 'Complete front end dev course ', price: 359},
+      {name: 'Complete Bug Bounty course ', price: 159}
+    ];
+
+    return (
+      <div className="App">
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <p>
+            <b>Course Purchase</b>
+          </p>          
+        </header>
+
+        <Coursesale items={courses}/>
+
+      </div>
+    );
+  }
+
 }
 
 export default App;
